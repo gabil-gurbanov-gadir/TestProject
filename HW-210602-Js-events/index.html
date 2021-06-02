@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <main>
+        <section id="checkList">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <div class="wrapper-tasks">
+                            <form>
+                                <div class="form-group">
+                                    <label for="firstname" class="form-control-label">Firstname</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="firstname"
+                                      placeholder="type your name"
+                                      autocomplete="off"
+                                    />
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="lastname" class="form-control-label">Firstname</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="lastname"
+                                      placeholder="type your lastname"
+                                      autocomplete="off"
+                                    />
+                            </form>
+
+                            <div class="check-lists mt-3">
+                                <ul class="list-group student-list"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tab">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <div class="wrapper-tabs">
+
+                            <button class="btn button btn-outline-dark" data-color="red">Red</button>
+                            <br/>
+                            <button class="btn button btn-outline-dark" data-color="green">
+                              Green
+                            </button>
+                            <br/>
+                            <button class="btn button btn-outline-dark" data-color="blue">
+                              Blue
+                            </button>
+                            <br/>
+                            <button class="btn button btn-outline-dark" data-color="yellow">
+                              Yellow
+                            </button>
+
+                            <div class="wrapper-boxs d-flex justify-content-between">
+                                <div class="box" id="red"></div>
+                                <div class="box" id="green"></div>
+                                <div class="box" id="blue"></div>
+                                <div class="box" id="yellow"></div>
+                              </div>
+                            <br/>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
